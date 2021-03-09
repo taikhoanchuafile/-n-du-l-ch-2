@@ -77,7 +77,7 @@
 {?>
 								<li>Thắc mắc ?<a href="#" data-toggle="modal" data-target="#myModal3"> / Gửi cho chúng tôi </a>  </li>
 								<?php } else { ?>
-								<li><a href="enquiry.php"> Hướng dẫn viên </a>  </li>
+								<li><a href="enquiry.php"> Yêu cầu tour </a>  </li>
 								<?php } ?>
 								<div class="clearfix"></div>
 

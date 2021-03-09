@@ -120,7 +120,7 @@ return true;
 						</div>
 
 	<div class="form-group">
-							<label class="col-md-2 control-label">Mật khẩu mới/label>
+							<label class="col-md-2 control-label">Mật khẩu mới</label>
 							<div class="col-md-8">
 								<div class="input-group">
 									<span class="input-group-addon">
