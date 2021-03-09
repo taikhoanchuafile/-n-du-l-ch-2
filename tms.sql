@@ -141,7 +141,7 @@ CREATE TABLE `tblpages` (
   `id` int(11) NOT NULL,
   `type` varchar(255) DEFAULT '',
   `detail` longtext DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Đang đổ dữ liệu cho bảng `tblpages`
