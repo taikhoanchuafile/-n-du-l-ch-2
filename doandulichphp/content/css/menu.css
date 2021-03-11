@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    border: none;
+}
+#menu{
+	z-index: 1;
+    font-weight: bold;
+}
+.sidebar {
+    padding: 0 40px;
+    height: 50px;
+    line-height: 50px;
+    font-family: sans-serif;
+}
+ul {
+    float: left;
+    margin: 0px !important;
+    margin-left: auto !important;
+    margin-right: auto !important; 
+    text-align: center;
+}
+li {
+    display: inline;
+    transition: 0.3s;
+    padding: 12px 18px;
+}
+li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn{
+    color: white;
+}
+li a:hover{
+	text-decoration: none;
+	color: currentColor;
+} 
+.icon {
+    float: right;
+    display: none;
+}
+.cap_2 li:hover{
+	background: #bc1f10;
+	color: white;
+}
+ul.cap_2 {
+    width: 200px;
+    border: 1px solid width;
+    border-radius: 7px;
+    background: #ffffff75;
+    position: absolute;
+    top: 40px;
+    left: -13px;
+    box-shadow: 2px 2px 4px 1px #00000057;
+    display: none;
+    z-index: 1;
+}
+ 
+ul.cap_2 li {
+    display: block;
+    color: black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 10px;
+    position: relative;
+}
+ 
+ul.cap_2 li:last-child {
+    border: none;
+}
+ 
+li{
+    position: relative;
+}
+li:hover ul.cap_2 {
+    display: block;
+
+}
+.icofont-rounded-right{
+	display: none;
+}
+.cap_3{
+    width: 200px;
+    border: 1px solid width;
+    border-radius: 7px;
+    background: #ffffff75;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    box-shadow: 2px 2px 4px 1px #00000057;
+    display: none;
+    z-index: 1;
+}
+ul.cap_2 li:hover .cap_3{
+    display: block;
+}
+.cap_2 li:hover{
+    background: #bc1f10;
+    color: white;
+}
+.cap_3 li {
+    display: block;
+    color: black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+    padding-left: 10px;
+    position: relative;
+}
+ .cap_3 li:last-child {
+    border: none;
+}
+.cap_3 li:hover{
+    background: #bc1f10;
+    color: white;
+}
+.icofont-simple-right{
+    display: none;
+}
+@media screen and (max-width: 1024px){
+    .sidebar ul li{
+        padding: 12px 10px;
+    }
+    .sidebar nav{
+        display: inline-block;
+    }
+    ul.cap_2 li{
+        line-height: 2;
+    }
+}
+@media(max-width:1000px){
+    ul{
+        display: none;
+    }
+    .list-intro ul{
+        display: block !important;
+    }
+    .list-intro ul li{
+        display: block !important;
+        border: none;
+    }
+    ul.active {
+        margin: 0;
+        background-color:#f28b17;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top:0px;
+        left: 0px;
+        display: block;
+        z-index: 1;
+        overflow: auto;
+    }
+    ul li{
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    .icon{
+        display: block;
+        line-height: 1;
+       	font-size: 2em;
+       	position: absolute;
+       	top: 10px;
+       	left: 10px;
+       	z-index: 2;
+    }
+    .icofont-simple-right{
+        display: block;
+    }
+    ul.cap_2{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 9;
+        left: 0px;
+        top: 0px;
+        background: #f7c947;
+    }
+    ul.cap_2 li{
+    	text-align: center;
+    	padding: 12px 18px;
+    }
+     ul.cap_2 li:first-child{
+     	margin-top: 50px;
+     }
+    .icofont-rounded-right{
+		position: absolute;
+		right: 0px;
+		z-index: 8;
+		display: block;
+		top: 30px;
+		font-size: 2em;
+	}
+    .icofont-simple-right{
+        position: absolute;
+        right: 0px;
+        z-index: 8;
+        display: block;
+        top: 10px;
+        font-size: 2em;
+    }
+    .cap_3{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 9;
+        left: 0px;
+        top: 0px;
+        background: #f7c947;
+    }
+    .cap_3 li{
+        text-align: center;
+        padding: 12px 18px;
+    }
+    .cap_3 li:first-child{
+        margin-top: 50px;
+     }
+	li:hover ul.cap_2 {
+    	display: none;
+	}
+    ul.cap_2 li:hover .cap_3{
+        display: none;
+    }
+}
